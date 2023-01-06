@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-number = "I'm a man" 
+number = 98
 print(f"{number} Battery street")
