@@ -1,7 +1,2 @@
-#!/usr/bin/env python3
-import os
-import py_compile
-#get filename from environmental variable
-py_file = os.environ['PYFILE']
-#compile the file
-py_compile.compile(py_file)
+#!/bin/bash
+python3 -m compileall -b $PYFILE
