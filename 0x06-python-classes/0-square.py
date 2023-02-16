@@ -2,9 +2,11 @@
 """
 Create a class
 """
+
+
 class Square:
     """
-    Square is a class.i
+    Square is a class.
     A template to create different squares, although it is empty now
     """
     pass
