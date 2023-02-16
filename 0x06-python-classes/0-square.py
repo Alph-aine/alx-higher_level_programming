@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Create a class
+"""
 class Square:
     """
     Square is a class.i
