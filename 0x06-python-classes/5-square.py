@@ -29,14 +29,13 @@ class Square:
 
     def my_print(self):
         """This method prints the square"""
+        if self.__size <= 0:
+            print()
         i = 0
         while (i in range(self.__size)):
-            if self.__size <= 0:
-                print()
-            else:
-                j = 0
-                while (j in range(self.__size)):
-                    print("#", end='')
-                    j += 1
+            j = 0
+            while (j in range(self.__size)):
+                print("#", end='')
+                j += 1
             print()
             i += 1
