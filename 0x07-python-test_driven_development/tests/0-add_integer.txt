@@ -39,10 +39,10 @@ Test extra args:
     SyntaxError: unexpected EOF while parsing
 
 Test special case (float(NaN)):
-    >>> print(add_integer(float(NaN)))
+    >>> print(add_integer(float("NaN")))
     Traceback (most recent call last):
     ...
-    NameError: name 'NaN' is not defined
+    ValueError: cannot convert float NaN to integer
 
 Test special case float(inf)/ overflow:
     >>> print(add_integer(float("inf")))
