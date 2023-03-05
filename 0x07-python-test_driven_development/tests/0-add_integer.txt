@@ -17,4 +17,4 @@ Test signed and unsigned ints and floats:
 
 Test case for default b=98 value:
     >>> print(add_integer(1))
-     99
+    99
