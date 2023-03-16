@@ -1,2 +1,2 @@
 ### SQL
-> This is the beginning of learning Sql using Mysql`
+> This is the beginning of learning Sql using Mysql
