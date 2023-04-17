@@ -14,7 +14,7 @@ if __name__ == '__main__':
                                passwd=password, db=dbname)
         '''creates a cursor object'''
         cur = conn.cursor()
-        
+
         '''executes query'''
         cur.execute("SELECT * from states ORDER by id ASC")
 
