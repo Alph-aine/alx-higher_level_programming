@@ -13,8 +13,8 @@ if __name__ == '__main__':
                                passwd=password, db=dbname)
         cur = conn.cursor()
         cur.execute("SELECT * FROM states "
-                     "WHERE name = '{}' "
-                     "ORDER BY id ASC".format(state_name))
+                    "WHERE name = '{}' "
+                    "ORDER BY id ASC".format(state_name))
         rows = cur.fetchall()
         for row in rows:
             print(row)
@@ -23,4 +23,5 @@ if __name__ == '__main__':
         conn.close()
 
     else:
-        print("Usage: {} username password dbname state_name".format(sys.argv[0]))
+        print("Usage: {} username password dbname state_name"
+              .format(sys.argv[0]))
