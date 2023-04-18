@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+''' takes filter condition fro command line'''
 import MySQLdb
 import sys
 
