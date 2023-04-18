@@ -24,6 +24,8 @@ if __name__ == '__main__':
             city.append(row[0])
         print(', '.join(city))
 
+        cur.close()
+        conn.close()
     else:
         print("Usage: {} username password dbname state name"
               .format(sys.argv[0]))

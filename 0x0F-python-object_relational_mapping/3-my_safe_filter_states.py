@@ -22,6 +22,9 @@ if __name__ == '__main__':
         for row in rows:
             print(row)
 
+        cur.close()
+        conn.close()
+
     else:
         print("Usage: {} username password dbname state_name"
               .format(sys.argv[0]))
