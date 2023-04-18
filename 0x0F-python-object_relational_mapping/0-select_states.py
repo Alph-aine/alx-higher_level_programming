@@ -1,8 +1,9 @@
-#!/usr/bin/python3
+#!/usr/bin/python
+''' script to access a database'''
 import MySQLdb
 import sys
-''' script to access a database'''
 
+'''if not imported'''
 if __name__ == '__main__':
     if len(sys.argv) == 4:
         username = sys.argv[1]
