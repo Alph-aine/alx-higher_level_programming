@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+''' filter state by condition '''
 import MySQLdb
 import sys
 
