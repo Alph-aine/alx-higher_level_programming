@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 ''' script to access a database'''
 import MySQLdb
 import sys
