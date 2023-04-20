@@ -1,12 +1,13 @@
 #!/usr/bin/python3
+''' creates a database table using ORM(slqalchemy) '''
 from sqlalchemy import create_engine, Column, String, Integer
 from sqlalchemy.ext.declarative import declarative_base
 
 
-
+'''defines the base class to inherit from later'''
 Base = declarative_base()
 
-
+'''This class defines the table and its fields'''
 class State(Base):
     __tablename__ = 'states'
     id = Column(Integer, primary_key=True, nullable=False, unique=True,
